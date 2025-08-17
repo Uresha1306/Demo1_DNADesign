@@ -1,0 +1,386 @@
+<html>
+    <head>
+        <title>Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    </head>
+    <body>
+      <!--nav bar starts from here-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light my-2">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img class="logo" src="images/dna_logo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto ">
+                    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-link" type="submit"><img class="search_dna" src="images/search.png"></button> 
+                    <input class="form-control me-2 border-0 border-bottom dna_inputsearch rounded-0" type="search"  aria-label="Search">
+                  
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+          <!--slider-->
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/slider1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slider1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slider1.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+          <!--Information about who we are-->
+          <section class="who_we_are text-center mt-5 pt-3">
+              <div class="container">
+                  <h1 class="py-3"><span class="dna_heading">Who We Are</span></h1>
+                  
+                    <p class="px-5 pb-5 mb-5">We are not just another web development and digital marketing agency, we are driven by our passion and our path of creativity distinguishes us from the rest of the agencies across the world.</p>
+
+                  <div class="row"> 
+                    <div class="col-md-6 px-4 col-lg-3 mt-2">
+                      <img src="images/dna_graphics.png">
+                      <div class="who_we_are_box p-4">
+                        <h2 class="my-2">Graphics Design</h2>
+                        <p class="pt-2">We are best Graphic Design service provider for you covering all major concepts of your business identity including logo, brochure, newsletter and visiting cards.</p>
+                      </div>
+                      
+                    </div>
+                    <div class="col-md-6 px-4 col-lg-3 mt-2">
+                      <img src="images/webdesign.png">
+                      <div class="who_we_are_box p-4">
+                        <h2 class="my-2">Web Design</h2>
+                        <p class="pt-2">Web designs are attributed to simplicity and creativity. We create website designs that are search friendly, user friendly & compatible to any browser.</p>
+                      </div>
+                      
+                    </div>
+                    <div class="col-md-6 px-4 col-lg-3 mt-2">
+                      <img src="images/wordpress.png">
+                      <div class="who_we_are_box p-4">
+                        <h2 class="my-2">Wordpress</h2>
+                        <p class="pt-2">We offer expert superior programming in order to ensure that your website has positive impact. Our WordPress sites are efficient, highly-scalable and flawless.</p>
+                      </div>
+                      
+                    </div>
+                    <div class="col-md-6 px-4 col-lg-3 mt-2">
+                      <img src="images/branding.png">
+                      <div class="who_we_are_box p-4">
+                        <h2 class="my-2">Branding</h2>
+                        <p class="pt-2">We are best Graphic Design service provider for you covering all major concepts of your business identity including logo, brochure, newsletter and visiting cards.</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                </div>
+          </section>
+          
+          <!--Output section start from here-->
+          <section class="mt-5 pt-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 pe-lg-5 col-lg-6">
+                  <img class="w-100" src="images/creative_design.png">
+                  <div class="who_we_are_box p-5 dna_box_par m-auto ">
+                    <h2 class="my-2 text-center">Creative Design</h2>
+                    <p class="pt-3">Creative design is a very broad term as it includes all the designs that are associated with the creativity including website designs, logos, brochure designs, newsletter, Infographic, and all the aspects of corporate designing. Our unique and out of the box concepts will help your business.</p>
+                  </div>
+                </div>
+                <div class="col-md-12 ps-lg-5 col-lg-6">
+                  
+                  <div class="who_we_are_box p-5 dna_box_par m-auto position-static">
+                    <h2 class="my-2 text-center">Thoughtful Output</h2>
+                    <p class="pt-3">We love to provide the best solutions to our clients related to websites, branding, and many other services. We are addicted to growth and updating ourselves with the latest trend in the web industry which help us to deliver the best possible output for any project.</p>
+                  </div>
+
+                  <img class="w-100 dna_thought" src="images/thoughtful_output.png">
+                </div>
+
+              </div>
+              <div class="d-grid gap-2 col-lg-2 mx-auto col-md-4">
+                <button class="btn btn-primary btn-light btn_contact_us" type="button">Contact Us</button>
+                
+              </div>
+
+            </div>
+
+          </section>
+          
+          <!--logo slider section start from here-->
+          <section class="dna_client text-center mt-5 pt-5 pb-5">
+            <div class="container">
+            <h1 class="py-5"><span class="dna_heading_clients">Our Happy Clients</span></h1>
+            <p>Happy At Work</p>
+            
+            <div class="brand-carousel section-padding owl-carousel mt-5 pt-5 mx-2 brand_logo_slider">
+              <div class="single-logo px-2">
+                <img src="images/itsolution.png" alt="">
+              </div>
+            <div class="single-logo px-2">
+                <img src="images/molift.png" alt="">
+              </div>
+            <div class="single-logo px-2">
+                <img src="images/martin_pickering_logo.png" alt="">
+              </div>
+            <div class="single-logo px-2">
+                <img src="images/itsolution.png" alt="">
+              </div>
+              <div class="single-logo px-2">
+                <img src="images/molift.png" alt="">
+              </div>
+            
+            </div>
+          </div>
+          </section>
+
+          <!--our skills section starts here-->
+          <section class="text-center mt-5 pt-2">
+            <div class="container">
+              <h1 class="py-4"><span class="dna_heading dna_skills_heading">Our Skills</span></h1>
+              <p>Always Ready to Help</p>
+              <div class="row">
+              <div class="dna_skills mt-4 col-md-6 px-2 col-lg-3">
+              <img src="images/coding.png">
+              <p class="dna_feedback pt-3">88%</p><p>Front-end-coding</p>
+            </div>
+            <div class="dna_skills mt-4 col-md-6 px-2 col-lg-3">
+              <img src="images/graphic_design.png">
+              <p class="dna_feedback pt-3">96%</p><p>Graphic Design</p>
+            </div>
+            <div class="dna_skills mt-4 col-md-6 px-2 col-lg-3">
+              <img src="images/strategy.png">
+              <p class="dna_feedback pt-3">91%</p><p>Strategy Planning</p>
+            </div>
+            <div class="dna_skills mt-4 col-md-6 px-2 col-lg-3">
+              <img src="images/client_satisfaction.png">
+              <p class="dna_feedback pt-3">98%</p><p>Client Satisfaction</p>
+            </div>
+          </div>
+            </div>
+          </section>
+
+          <!--Clients love us section start from here-->
+          <section class="mt-5 pt-5 text-center dna_client_loveus">
+            <div class="container">
+              <h1 class="pt-5"><span class="dna_heading_loveus">Why Our Clients Love Us</span></h1>
+              <div class="row">
+                <div class="col-md-5 my-0 my-md-5 pt-5 dna_client_loveus">
+                  <p>And why they keep coming back!</p>
+                  
+                </div>
+                <div class="col-md-7 py-5">
+                  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    
+                    <div class="carousel-inner dna_client_loveus_box">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        
+                        <div class="carousel-caption  d-md-block">
+                          <p>"Fast, accurate and unique. DNA Designs team is WordPress expert."</p>
+                          <p>Dusty</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        
+                        <div class="carousel-caption  d-md-block">
+                          <p>"Perfectly understood the query and delivered to me.thanks DNA Designs."</p>
+                          <p>Alex</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        
+                        <div class="carousel-caption  d-md-block">
+                          <p>"Offer's great suggestions to take your project to the next level.I strongly recommended working with DNA Design"</p>
+                          <p>Vicksan</p>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="carousel-indicators pt-4">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+              </div>
+
+            </div>
+          </section>
+         
+          <!--We ensure section strats from here-->
+          <section class="pt-5 mt-5 text-center">
+            <div class="container">
+              <h1 class="pt-5 mt-5"><span class="dna_heading_ensure">We Ensure</span></h1>
+              <div class="row m-auto">
+                <div class="col-md-4 pt-5 mt-5">
+                    <div class="we_ensure_box px-2 py-3">
+                    <img src="images/effective.png">
+                    <h2>Effective</h2>
+                    <p>All our designing solutions are effective in terms of search engines,branding...</p>
+                  </div>
+                </div>
+                <div class="col-md-4 pt-5 mt-5">
+                  <div class="we_ensure_box px-2 py-3">
+                    <img src="images/trendy.png">
+                    <h2>Trendy</h2>
+                    <p>We keep ourselves updated with the latest   trends of web technologies, marketing...</p>
+                  </div>
+                </div>
+                <div class="col-md-4 pt-5 mt-5">
+                  <div class="we_ensure_box px-2 py-3">
+                    <img src="images/ontime.png">
+                    <h2>On-Time</h2>
+                    <p>We know the value of time. We guarantee on time  deliver as we understand ...</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row m-auto">
+                <div class="col-md-4 pt-5 mt-5">
+                  <div class="we_ensure_box px-2 py-3">
+                  <img src="images/compelling.png">
+                  <h2>Compelling</h2>
+                  <p>All our work including the designs, and branding is admirable and we ensure that...</p>
+                  </div>
+                  </div>
+                <div class="col-md-4 pt-5 mt-5">
+                  <div class="we_ensure_box px-2 py-3">
+                  <img src="images/reaserch.png">
+                  <h2>Researched</h2>
+                  <p>We conduct a thorough research before taking any project on hand. Our research...</p>
+                </div>
+              </div>
+              
+                <div class="col-md-4 pt-5 mt-5">
+                  <div class="we_ensure_box px-2 py-3">
+                  <img src="images/satisfied.png">
+                  <h2>Satisfied</h2>
+                  <p>We must say that we have more than 100+ satisfied clients across the digital ...</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </section>
+
+          <!--variety of project section start from here..-->
+          <section class="pt-5 mt-5 pb-5 text-center dna_varietyofproject">
+            <div class="container">
+              <h1 class="pt-5"><span class="dna_project_variety_heading">Variety of Projects</span></h1>
+                <div class="row text-center dna_contact_box mt-5 py-5">
+                <p class="pb-4">We have a large selection of pre-made demos in a range of styles</p>
+                <div class="col-md-3"></div>
+                <div class="col-md-6 dna_button_section px-5">
+                  <div class="row">
+                    
+                  <input class="col-md-4 px-3 mb-3" type="text" placeholder="First Name">
+                  <input class="col-md-4 px-3 mb-3" type="text" placeholder="Last Name">
+                  <input class="col-md-4 px-3 mb-3" type="email" placeholder="Email Address">
+                </div>
+                  <p class="pt-4 dna_contactus_info">* We do not sell or share your information with anyone else.</p>
+                  <button type="button" class="btn btn-danger btn_subscribe">Subscribe Now<span class="ps-2"><img src="images/subscribe_icon.png"></span></button>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+          <!--footer section-->
+          <section class=" text-center dna_footer">
+            <div class="container">
+              <a href="#"><img class="logo pt-5" src="images/dna_logo.png"></a>
+              <div class="row">
+                <div class="col-md-6 pt-5 dna_contact">
+                  <p class="px-2">Creative Design Agency <span class="border-end  border-danger mx-2"></span> Creativity is at its peak when it comes Design <span class="border-end  border-danger mx-2"></span> 094297 94596</p>
+                </div>
+                <div class="col-md-6 pt-5 dna_social_logo"> 
+                  <span class="border-end  border-danger"><img class="px-4" src="images/facebook_logo.png"></span>
+                  <span class="border-end  border-danger"><img class="px-4" src="images/twitter_logo.png"></span>
+                  <span class="border-end  border-danger"><img class="px-4" src="images/instagram_logo.png"></span>
+                  <img class="px-4" src="images/linkedin_logo.png">
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>  
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+        <script>
+        $('.brand-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          autoplay:true,
+          responsive:{
+            0:{
+              items:1
+            },
+            600:{
+              items:3
+            },
+            1000:{
+              items:4
+            }
+          }
+        }) 
+      </script>
+        
+      </body>
+    
+</html>

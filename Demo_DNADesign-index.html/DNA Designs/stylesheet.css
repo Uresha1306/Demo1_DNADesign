@@ -1,0 +1,207 @@
+.logo{
+    width: 180px;
+}
+.search_dna{
+    width: 20px;
+}
+.dna_inputsearch{
+    border-color:#111111 !important;
+}
+.dna_heading{
+    background-image: url("../images/title_border.png");
+    background-size: contain;
+    padding: 10px 20px;
+    background-repeat: no-repeat;
+
+}
+.who_we_are_box{
+    box-shadow: 0px 0px 10px #FFA8A8;
+    border-radius: 30px;
+    transition: all 1s;
+    background-color: #ffffff;
+}
+.who_we_are_box h2{
+    font-size: 25px;
+  
+}
+.who_we_are_box p{
+    font-size: 15px;
+    text-align: left;
+    color: #A5A5A5;
+    line-height: 23px;
+}
+.who_we_are img{
+    max-width: 140px;
+    
+}
+.who_we_are .col-lg-3:hover .who_we_are_box{
+    transform: scale(1.1);
+  
+}
+.dna_box_par{
+    max-width: 70%;
+    position: relative;
+    bottom: 125px;
+    background: rgba(255, 255, 255, 0.75) ;
+    
+}
+.dna_box_par p{
+    color: #111111 !important;
+}
+.dna_thought{
+    position: relative;
+    bottom: 125px;
+    z-index: -1;
+}
+
+.btn_contact_us{
+    box-shadow: 0px 3px 3px #FFA8A8;
+    background-color: #ffffff;
+    color: #111111;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.dna_client{
+    background-color: #eeeeee;
+}
+.dna_heading_clients{
+    background-image: url("../images/title_border_2.png");
+    background-size: contain;
+    padding: 8px 15px;
+    background-repeat: no-repeat;
+}
+.brand_logo_slider img{
+    max-height: 70px;
+    object-fit: contain;
+}
+.dna_skills_heading{
+    padding: 2px 20px;
+}
+.dna_skills p{
+   font-weight: bold;
+   font-size: 18px;
+}
+.dna_feedback{
+    color: #FF0000;
+    font-size: 25px !important;
+}
+.dna_heading_loveus{
+    background-image: url("../images/title_border_3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 6px 20px;
+}
+.dna_client_loveus{
+    background-image: url("../images/clients_love.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dna_client_loveus{
+    color: #ffffff;
+}
+.dna_client_loveus_box{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 40px;
+    
+}
+.carousel-caption, .carousel-indicators{
+    position: static !important;
+    
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #000;
+    border-radius: 10px;
+    height: 8px;
+    border: 1px solid #ff0000;
+}
+.carousel-caption h5,.carousel-caption p{
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.dna_heading_ensure{
+    background-image: url("../images/title_border_4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 12px 22px;
+}
+.we_ensure_box{
+    
+    box-shadow: 0px 5px 3px #FFA8A8;
+    border-radius: 30px;
+}
+.we_ensure_box img{
+    max-width: 115px;
+    padding: 5px 0px;
+}
+.we_ensure_box h2{
+    color: #111111;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 15px;
+}
+.we_ensure_box p{
+    font-size: 15px;
+    color: #959595;
+}
+.dna_varietyofproject{
+    background-image: url("../images/variety_project.png");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.dna_project_variety_heading{
+    background-image: url("../images/title_border_5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 12px 25px;
+    color: #eeeeee;
+}
+.dna_contact_box{
+    background: #ffffff;
+    border-radius: 15px;
+}
+.dna_button_section input{
+    background-color: #EBEBEE;
+    border-radius: 15px;
+    border: none;
+}
+.dna_contactus_info{
+    font-size: 12px;
+    color: #B4B4B4;
+}
+.btn_subscribe{
+    border-radius: 20px;
+    background-color: #ff0000;
+}
+.dna_footer{
+    background-color: #E2E2E2;
+}
+.dna_contact p{
+    font-size: 12px;
+}
+.dna_social_logo{
+
+}
+
+    .owl-dots {
+        display: none;
+    text-align: center;
+    margin-top: 4%;
+    }
+    .owl-dot {
+    display: inline-block;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #878787 !important;
+    opacity: 0.8;
+    border-radius: 50%;
+    margin: 0 5px;
+    }
+    .owl-dot.active {
+    background-color: #000 !important;
+    }
+    
